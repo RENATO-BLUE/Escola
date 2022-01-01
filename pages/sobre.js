@@ -1,13 +1,13 @@
 inport Link from 'next/link';
 
-function Home(){
+function Sobre(){
     return (<div>
             <h1>HOME</h1>
             
             <Link href="/sobre">
-                <a>Acessar página sobre</a>
+                <a>Acessar página HOME</a>
             </Link>
         </div>)
 }
 
-export default Home
+export default Sobre
